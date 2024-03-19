@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portofolioku</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
@@ -24,13 +25,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#riwayat">Riwayat Pendidikan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -73,44 +74,94 @@
       </div>
     </section>
 
-    <div class="album py-5" style="background-color: white">
-      <div class="container-album">
-        <h2>My Projects</h2>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <!-- riwayat -->
+    <section id="riwayat" class="riwayat">
+      <div class="container text-center">
+        <h1>Riwayat Pendidikan</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <!-- Kartu SMA -->
           <div class="col">
-            <div class="card shadow-sm">
-              <img src="gambar.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" />
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">SMA</h4>
+              </div>
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <h3 class="card-title pricing-card-title">SMA Negeri 08 Semarang</h3>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>MIPA (Matematika dan Ilmu Pengetahuan Alam)</li>
+                  <li>Nilai : 82,67</li>
+                  <li style="visibility: hidden">--</li>
+                  <li style="visibility: hidden">--</li>
+                  <li>2017 - 2020</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Kartu University -->
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">University</h4>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title pricing-card-title">Universitas Dian Nuswantoro</h3>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Fakultas Ilmu Komputer</li>
+                  <li>Progdi Teknik Informatika</li>
+                  <li>IPK : 3,60</li>
+                  <li style="visibility: hidden">--</li>
+                  <li>2021 - Now</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projek">
+      <div id="projects" class="album py-5" style="background-color: white">
+        <div class="container-album">
+          <h2>My Projects</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="/img/list.png" class="bd-placeholder-img card-img-top" alt="Placeholder image" />
+                <div class="card-body">
+                  <h4>Movie List</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="gambar.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" />
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="/img/landing.png" class="bd-placeholder-img card-img-top" alt="Placeholder image" />
+                <div class="card-body">
+                  <h4>Trendz Store</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="gambar.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" />
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="/img/suhu.png" class="bd-placeholder-img card-img-top" alt="Placeholder image" />
+                <div class="card-body">
+                  <h4>Konversi Suhu</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -118,8 +169,32 @@
           </div>
         </div>
       </div>
-    </div>
-
+    </section>
+    <!-- Footer -->
+    <svg id="wave" style="transform: rotate(0deg); transition: 0.3s" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+          <stop stop-color="rgba(27, 60, 115, 1)" offset="0%"></stop>
+          <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        style="transform: translate(0, 0px); opacity: 1"
+        fill="url(#sw-gradient-0)"
+        d="M0,0L48,26.7C96,53,192,107,288,110C384,113,480,67,576,53.3C672,40,768,60,864,83.3C960,107,1056,133,1152,120C1248,107,1344,53,1440,56.7C1536,60,1632,120,1728,136.7C1824,153,1920,127,2016,126.7C2112,127,2208,153,2304,160C2400,167,2496,153,2592,143.3C2688,133,2784,127,2880,120C2976,113,3072,107,3168,106.7C3264,107,3360,113,3456,110C3552,107,3648,93,3744,73.3C3840,53,3936,27,4032,43.3C4128,60,4224,120,4320,126.7C4416,133,4512,87,4608,76.7C4704,67,4800,93,4896,93.3C4992,93,5088,67,5184,50C5280,33,5376,27,5472,26.7C5568,27,5664,33,5760,53.3C5856,73,5952,107,6048,103.3C6144,100,6240,60,6336,66.7C6432,73,6528,127,6624,143.3C6720,160,6816,140,6864,130L6912,120L6912,200L6864,200C6816,200,6720,200,6624,200C6528,200,6432,200,6336,200C6240,200,6144,200,6048,200C5952,200,5856,200,5760,200C5664,200,5568,200,5472,200C5376,200,5280,200,5184,200C5088,200,4992,200,4896,200C4800,200,4704,200,4608,200C4512,200,4416,200,4320,200C4224,200,4128,200,4032,200C3936,200,3840,200,3744,200C3648,200,3552,200,3456,200C3360,200,3264,200,3168,200C3072,200,2976,200,2880,200C2784,200,2688,200,2592,200C2496,200,2400,200,2304,200C2208,200,2112,200,2016,200C1920,200,1824,200,1728,200C1632,200,1536,200,1440,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"
+      ></path>
+    </svg>
+    <footer class="text-white py-4">
+      <div class="container text-center">
+        <div class="social-icons">
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/"><i class="fab fa-github"></i></a>
+        </div>
+        <hr />
+        <p>&copy; 2024 Imanuel Dimas C.K</p>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

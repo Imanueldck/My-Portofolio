@@ -1,22 +1,50 @@
 body {
   min-height: 2000;
 }
-
+.navbar {
+  position: fixed;
+  width: 100%;
+  margin-bottom: 1000px;
+  z-index: 1;
+}
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 90px;
   background-color: #40679e;
   color: white;
 }
 
 #about {
+  padding-top: 90px;
+  padding-bottom: 100px;
   text-align: left;
   text-align: justify;
   line-height: 35px;
   letter-spacing: 1px;
 }
 
+.riwayat {
+  padding-top: 50px;
+  background-color: #ffffff;
+}
+.riwayat h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.card-header {
+  background-color: #1b3c73;
+  color: #fff;
+}
+
+#projek {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#projek h2 {
+  padding-top: 20px;
+}
+
 .container-album {
-  padding: 100px;
+  padding: 00px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -24,4 +52,25 @@ body {
   text-align: center;
   margin: 10px;
   padding-bottom: 20px;
+}
+
+.social-icons a {
+  color: #fff; /* Warna ikon */
+  font-size: 24px; /* Ukuran ikon */
+  margin-right: 10px; /* Ruang antara ikon */
+  text-decoration: none; /* Menghilangkan dekorasi tautan */
+  transition: color 0.3s ease; /* Transisi warna ikon saat dihover */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Warna ikon saat dihover */
+}
+footer {
+  background-color: #1b3c73; /* Warna latar belakang footer */
+  color: #fff; /* Warna teks footer */
+  padding: 20px 0; /* Ruang bantal di dalam footer */
+}
+
+footer p {
+  margin-bottom: 0; /* Menghilangkan margin bawah pada teks footer */
 }
