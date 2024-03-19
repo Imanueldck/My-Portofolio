@@ -4,7 +4,15 @@ body {
 
 .jumbotron {
   padding-top: 2rem;
-  background-color: #87cefa;
+  background-color: #40679e;
+  color: white;
+}
+
+#about {
+  text-align: left;
+  text-align: justify;
+  line-height: 35px;
+  letter-spacing: 1px;
 }
 
 .container-album {
