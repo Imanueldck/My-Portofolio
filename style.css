@@ -36,16 +36,12 @@ body {
 }
 
 #projek {
+  padding: 10px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 #projek h2 {
   padding-top: 20px;
-}
-
-.container-album {
-  padding: 00px;
-  background-color: rgb(255, 255, 255);
 }
 
 .container-album h2 {
@@ -73,4 +69,31 @@ footer {
 
 footer p {
   margin-bottom: 0; /* Menghilangkan margin bawah pada teks footer */
+}
+
+/* Gaya untuk tombol */
+.btn-outline-secondary {
+  color: #07508f;
+  background-color: transparent;
+  border-color: #1c63a1;
+  margin: 16px;
+  width: 100px;
+  transition: transform 0.3s ease;
+}
+
+/* Gaya untuk tombol saat hover */
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #144e80;
+  border-color: #2f70a9;
+}
+
+/* Animasi saat tombol dihover */
+.btn-outline-secondary {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Gaya untuk tombol saat diklik */
+.btn-outline-secondary:active {
+  transform: translateY(2px);
 }
