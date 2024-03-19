@@ -1,0 +1,19 @@
+body {
+  min-height: 2000;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #87cefa;
+}
+
+.container-album {
+  padding: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-album h2 {
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 20px;
+}
