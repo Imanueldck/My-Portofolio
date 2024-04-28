@@ -4,18 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portofolioku</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-
-    <!-- css -->
     <link rel="stylesheet" href="style.css" />
-    <!-- akhir css -->
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: #1b3c73">
       <div class="container">
-        <a class="navbar-brand" href="#">Dimas</a>
+        <a class="navbar-brand" href="#">My Portofolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,6 +37,7 @@
       </div>
     </nav>
     <!-- Akhir navbar-->
+
     <!--jombotron -->
     <section class="jumbotron text-center">
       <img src="img/foto-resmi.png" alt="noel" width="230" class="rounded-circle img-thumbnail" />
@@ -60,7 +60,7 @@
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-up">
           <div class="col-md-6">
             <p class="text-center">Imanuel is a Computer Engineering student at Dian Nuswantoro University. He has an interest in website development, particularly in UI/UX design, and works as a frontend developer.</p>
           </div>
@@ -80,7 +80,7 @@
         <h1>Education</h1>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <!-- Kartu SMA -->
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-anchor-placement="center-center">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">SMA</h4>
@@ -98,7 +98,7 @@
             </div>
           </div>
           <!-- Kartu University -->
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">University</h4>
@@ -126,11 +126,7 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZgFDXfwN6YLtIGbNMYPOVCblZ1rcUFrQ6Y77Pk-4xY-lkdgkBbkskVOt--SfUISScqLVveBf4fZHmq1044w9pwwIJg=s1600"
-                  class="bd-placeholder-img card-img-top"
-                  alt="Placeholder image"
-                />
+                <img src="img/list.png" class="bd-placeholder-img card-img-top" alt="Placeholder image" />
                 <div class="card-body">
                   <h4>Movie List</h4>
                   <p class="card-text">Website List Movie dengan menggunakan API dari lk21.</p>
@@ -144,11 +140,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZWB0sAoYQBm5uJFRyHX9AakKjYxRGKFnbndq86FhK1KGSeqIYu0U7v0lFAbZyiBWhjTC5I9XmK-KesJwvdOtBPCyfQGw=s1600"
-                  class="bd-placeholder-img card-img-top"
-                  alt="Placeholder image"
-                />
+                <img src="img/landing.png" class="bd-placeholder-img card-img-top" alt="Placeholder image" />
                 <div class="card-body">
                   <h4>Trendz Store</h4>
                   <p class="card-text">Website Trendz Store yang berfokus pada penjualan sepatu.</p>
@@ -162,11 +154,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img
-                  src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYKrajseyqRVX3RzS4FCY52Q6MX4hnGHHBKpEd3oFol9uJEyT2jXXVLsg5mfJsbsJDcQmZ_VJHxQDm-YDZx13zVZ9AAvg=s1600"
-                  class="bd-placeholder-img card-img-top"
-                  alt="Placeholder image"
-                />
+                <img src="img/suhu.png" alt="Placeholder image" />
                 <div class="card-body">
                   <h4>Konversi Suhu</h4>
                   <p class="card-text">Webiste Konversi Suhu menggunakan HTML CSS dan Javascipt.</p>
@@ -214,14 +202,17 @@
     <footer class="text-white py-4">
       <div class="container text-center">
         <div class="social-icons">
-          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/dimas.imanuell/" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-          <a href="https://github.com/"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/Imanueldck" target="_blank"><i class="fab fa-github"></i></a>
         </div>
         <hr />
         <p>&copy; 2024 Imanuel Dimas C.K</p>
       </div>
     </footer>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
